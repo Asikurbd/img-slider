@@ -1,0 +1,55 @@
+code {
+	display: block;
+	margin: 40px 0 15px;
+	padding: 1em 2em;
+	background: rgba(255,255,255,.4);
+	white-space: pre;
+	font-size: .7em;
+	line-height: 1.0em;
+}
+
+
+[class*="slideshow"] {
+	max-width: 100%;
+height: auto;
+	margin: 0 auto;
+	outline: none;
+}
+
+[class*="slideshow"] img {
+	display:none;
+}
+
+.image_wrapper .text_content {
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	color: #fff;
+	text-shadow: 0 0 3px rgba(0,0,0,.5);
+	opacity: 1;
+}
+
+.text_content * {
+	margin: 1em 0;
+}
+
+.example_images img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.status {
+	position: relative;
+	padding: 1em 2em;
+	background: rgba(255,255,255,.4);
+	font-size: 1em;
+	color: #000;
+}
+
+.status::before {
+	content: "Status: ";
+	text-transform: uppercase;
+	color: #555;
+}
